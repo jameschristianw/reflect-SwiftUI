@@ -13,6 +13,27 @@
 		CA77B77F288F887D0091269D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77B76D288F887B0091269D /* ContentView.swift */; };
 		CA77B780288F887D0091269D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77B76E288F887D0091269D /* Assets.xcassets */; };
 		CA77B781288F887D0091269D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77B76E288F887D0091269D /* Assets.xcassets */; };
+		CA77B78B288F8F5C0091269D /* OnBoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77B78A288F8F5C0091269D /* OnBoadingView.swift */; };
+		CA77B78C288F8F5C0091269D /* OnBoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77B78A288F8F5C0091269D /* OnBoadingView.swift */; };
+		CA77B78E288F8FBF0091269D /* ReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77B78D288F8FBF0091269D /* ReflectionView.swift */; };
+		CA77B78F288F8FBF0091269D /* ReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77B78D288F8FBF0091269D /* ReflectionView.swift */; };
+		CA77B791288F909B0091269D /* ReflectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77B790288F909B0091269D /* ReflectionViewModel.swift */; };
+		CA77B792288F909B0091269D /* ReflectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77B790288F909B0091269D /* ReflectionViewModel.swift */; };
+		CAD35F8B288FB48100C317AB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F8A288FB48100C317AB /* MenuView.swift */; };
+		CAD35F8D288FB4AD00C317AB /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F8C288FB4AD00C317AB /* MenuViewModel.swift */; };
+		CAD35F8F288FB63C00C317AB /* ReflectionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F8E288FB63C00C317AB /* ReflectionFormView.swift */; };
+		CAD35F91288FB65C00C317AB /* PastReflectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F90288FB65C00C317AB /* PastReflectionComponent.swift */; };
+		CAD35F94288FB68C00C317AB /* TodaysReflectionComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F93288FB68C00C317AB /* TodaysReflectionComponent.swift */; };
+		CAD35F9B2890DDD100C317AB /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F9A2890DDD100C317AB /* Helper.swift */; };
+		CAD35F9E2890DE1A00C317AB /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F9D2890DE1A00C317AB /* UIScreen.swift */; };
+		CAD35FA02890EDE400C317AB /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35F9F2890EDE400C317AB /* APIService.swift */; };
+		CAD35FAB289258DB00C317AB /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35FAA289258DB00C317AB /* Challenge.swift */; };
+		CAD35FAD289258E900C317AB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35FAC289258E900C317AB /* Category.swift */; };
+		CAD35FB12892718E00C317AB /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35FB02892718E00C317AB /* DataController.swift */; };
+		CAD35FB4289271FD00C317AB /* Reflection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAD35FB2289271FD00C317AB /* Reflection.xcdatamodeld */; };
+		CAD35FB92892797E00C317AB /* ReflectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35FB82892797E00C317AB /* ReflectionItem.swift */; };
+		CAD35FBB2892818D00C317AB /* ReflectionCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35FBA2892818D00C317AB /* ReflectionCD.swift */; };
+		CAD35FBD2892F22000C317AB /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD35FBC2892F22000C317AB /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +43,24 @@
 		CA77B773288F887D0091269D /* Reflect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA77B779288F887D0091269D /* Reflect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA77B77B288F887D0091269D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CA77B78A288F8F5C0091269D /* OnBoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoadingView.swift; sourceTree = "<group>"; };
+		CA77B78D288F8FBF0091269D /* ReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionView.swift; sourceTree = "<group>"; };
+		CA77B790288F909B0091269D /* ReflectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionViewModel.swift; sourceTree = "<group>"; };
+		CAD35F8A288FB48100C317AB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CAD35F8C288FB4AD00C317AB /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		CAD35F8E288FB63C00C317AB /* ReflectionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionFormView.swift; sourceTree = "<group>"; };
+		CAD35F90288FB65C00C317AB /* PastReflectionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastReflectionComponent.swift; sourceTree = "<group>"; };
+		CAD35F93288FB68C00C317AB /* TodaysReflectionComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysReflectionComponent.swift; sourceTree = "<group>"; };
+		CAD35F9A2890DDD100C317AB /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CAD35F9D2890DE1A00C317AB /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		CAD35F9F2890EDE400C317AB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CAD35FAA289258DB00C317AB /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		CAD35FAC289258E900C317AB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CAD35FB02892718E00C317AB /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		CAD35FB3289271FD00C317AB /* Reflection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reflection.xcdatamodel; sourceTree = "<group>"; };
+		CAD35FB82892797E00C317AB /* ReflectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionItem.swift; sourceTree = "<group>"; };
+		CAD35FBA2892818D00C317AB /* ReflectionCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionCD.swift; sourceTree = "<group>"; };
+		CAD35FBC2892F22000C317AB /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +93,17 @@
 		CA77B76B288F887B0091269D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CAD35FB7289272BC00C317AB /* CoreData */,
+				CAD35F9C2890DE0B00C317AB /* Extensions */,
+				CAD35F972890DCF100C317AB /* Models */,
+				CAD35F962890DBD600C317AB /* Services */,
+				CAD35F952890DB4D00C317AB /* Helper */,
+				CAD35F86288FAC1600C317AB /* Components */,
+				CAD35F85288FAC0E00C317AB /* View */,
+				CAD35F87288FAC2400C317AB /* View Model */,
 				CA77B76C288F887B0091269D /* ReflectApp.swift */,
-				CA77B76D288F887B0091269D /* ContentView.swift */,
 				CA77B76E288F887D0091269D /* Assets.xcassets */,
+				CAD35FB2289271FD00C317AB /* Reflection.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +123,80 @@
 				CA77B77B288F887D0091269D /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		CAD35F85288FAC0E00C317AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA77B76D288F887B0091269D /* ContentView.swift */,
+				CA77B78A288F8F5C0091269D /* OnBoadingView.swift */,
+				CA77B78D288F8FBF0091269D /* ReflectionView.swift */,
+				CAD35F8A288FB48100C317AB /* MenuView.swift */,
+				CAD35F8E288FB63C00C317AB /* ReflectionFormView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAD35F86288FAC1600C317AB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CAD35F90288FB65C00C317AB /* PastReflectionComponent.swift */,
+				CAD35F93288FB68C00C317AB /* TodaysReflectionComponent.swift */,
+				CAD35FB82892797E00C317AB /* ReflectionItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CAD35F87288FAC2400C317AB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA77B790288F909B0091269D /* ReflectionViewModel.swift */,
+				CAD35F8C288FB4AD00C317AB /* MenuViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		CAD35F952890DB4D00C317AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CAD35F9A2890DDD100C317AB /* Helper.swift */,
+				CAD35FBC2892F22000C317AB /* NotificationManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CAD35F962890DBD600C317AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CAD35F9F2890EDE400C317AB /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CAD35F972890DCF100C317AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAD35FAA289258DB00C317AB /* Challenge.swift */,
+				CAD35FAC289258E900C317AB /* Category.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAD35F9C2890DE0B00C317AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CAD35F9D2890DE1A00C317AB /* UIScreen.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CAD35FB7289272BC00C317AB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CAD35FB02892718E00C317AB /* DataController.swift */,
+				CAD35FBA2892818D00C317AB /* ReflectionCD.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +297,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD35FB4289271FD00C317AB /* Reflection.xcdatamodeld in Sources */,
+				CAD35FA02890EDE400C317AB /* APIService.swift in Sources */,
+				CAD35F8B288FB48100C317AB /* MenuView.swift in Sources */,
+				CA77B791288F909B0091269D /* ReflectionViewModel.swift in Sources */,
+				CAD35F91288FB65C00C317AB /* PastReflectionComponent.swift in Sources */,
+				CAD35FB12892718E00C317AB /* DataController.swift in Sources */,
+				CAD35F94288FB68C00C317AB /* TodaysReflectionComponent.swift in Sources */,
+				CAD35F9E2890DE1A00C317AB /* UIScreen.swift in Sources */,
+				CAD35FAB289258DB00C317AB /* Challenge.swift in Sources */,
+				CAD35FB92892797E00C317AB /* ReflectionItem.swift in Sources */,
+				CAD35F8F288FB63C00C317AB /* ReflectionFormView.swift in Sources */,
 				CA77B77E288F887D0091269D /* ContentView.swift in Sources */,
+				CAD35FBB2892818D00C317AB /* ReflectionCD.swift in Sources */,
+				CA77B78E288F8FBF0091269D /* ReflectionView.swift in Sources */,
 				CA77B77C288F887D0091269D /* ReflectApp.swift in Sources */,
+				CAD35F9B2890DDD100C317AB /* Helper.swift in Sources */,
+				CA77B78B288F8F5C0091269D /* OnBoadingView.swift in Sources */,
+				CAD35FBD2892F22000C317AB /* NotificationManager.swift in Sources */,
+				CAD35F8D288FB4AD00C317AB /* MenuViewModel.swift in Sources */,
+				CAD35FAD289258E900C317AB /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA77B792288F909B0091269D /* ReflectionViewModel.swift in Sources */,
 				CA77B77F288F887D0091269D /* ContentView.swift in Sources */,
+				CA77B78F288F8FBF0091269D /* ReflectionView.swift in Sources */,
 				CA77B77D288F887D0091269D /* ReflectApp.swift in Sources */,
+				CA77B78C288F8F5C0091269D /* OnBoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +457,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -328,7 +471,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -345,6 +488,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
@@ -358,7 +502,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -450,6 +594,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAD35FB2289271FD00C317AB /* Reflection.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAD35FB3289271FD00C317AB /* Reflection.xcdatamodel */,
+			);
+			currentVersion = CAD35FB3289271FD00C317AB /* Reflection.xcdatamodel */;
+			path = Reflection.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CA77B767288F887A0091269D /* Project object */;
 }

@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct ReflectApp: App {
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ReflectionViewModel())
+                .environmentObject(MenuViewModel())
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }
